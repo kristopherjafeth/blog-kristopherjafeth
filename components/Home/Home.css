@@ -27,6 +27,11 @@
     margin-bottom: var(--mb-1);
 }
 
+.span-green{
+    color: #0ffc99;
+
+}
+
 .home__subtitle::before
 {
     content: '';

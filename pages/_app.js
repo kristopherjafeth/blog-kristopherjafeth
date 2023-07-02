@@ -7,6 +7,7 @@ import Header from "@/components/Header/Header";
 import '@/components/Header/Header.css'
 import '@/components/Home/Home.css'
 import '@/components/Home/About.css';
+import '@/components/Home/Skills/Skills.css';
 
 export default function App({ Component, pageProps }) {
  

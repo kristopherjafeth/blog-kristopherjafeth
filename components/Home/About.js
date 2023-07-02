@@ -9,7 +9,7 @@ export default function About() {
 
   return (
     <section className="about section" id="about">
-      <h1 className="section__title">About me</h1>
+      <h1 className="section__title">About <span className="span-green">me</span></h1>
       <span className="section__subtitle">My introduction</span>
       <div className="about__container container grid">
         <Image
