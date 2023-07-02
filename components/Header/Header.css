@@ -126,7 +126,9 @@
 
 
   @media screen and (max-width: 350px) {
-
+    .about__data {
+        padding: 1rem;
+    }
     .nav__menu
     {
         padding: 2rem 0.25rem 4rem;
