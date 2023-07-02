@@ -4,7 +4,7 @@ import { BiBriefcase } from "react-icons/bi";
 import { BiBadgeCheck } from "react-icons/bi";
 import { BiUser } from "react-icons/bi";
 import { BiMessage } from "react-icons/bi";
-import { BiGridAlt } from "react-icons/bi";
+import { BiMenu } from "react-icons/bi";
 import { BiXCircle } from "react-icons/bi";
 import Image from 'next/image'
 
@@ -67,7 +67,7 @@ export default function Header() {
                 </div>
             </div>
             <div className='nav__toggle' onClick={() => showMenu(!Toggle)}>
-                <BiGridAlt />
+                <BiMenu />
             </div>
         </nav>
     </header>

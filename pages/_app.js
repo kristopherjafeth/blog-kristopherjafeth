@@ -6,6 +6,7 @@ import Header from "@/components/Header/Header";
 //import Styles
 import '@/components/Header/Header.css'
 import '@/components/Home/Home.css'
+import '@/components/Home/About.css';
 
 export default function App({ Component, pageProps }) {
  
