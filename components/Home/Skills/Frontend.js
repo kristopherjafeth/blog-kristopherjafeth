@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiCheckCircle } from "react-icons/bi";
 import { BiLogoReact } from "react-icons/bi";
 import { BiLogoVuejs} from "react-icons/bi";
 import { BiLogoHtml5} from "react-icons/bi";

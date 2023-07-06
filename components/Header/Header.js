@@ -19,8 +19,9 @@ export default function Header() {
                 <Image
                 src="./assets/logo.svg"
                 width={80}
-                height={80}
+                height={50}
                 alt="Picture of the author"
+                className='logo-image'
                 />
             </a>
 
