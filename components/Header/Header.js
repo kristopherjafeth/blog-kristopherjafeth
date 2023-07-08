@@ -52,7 +52,7 @@ export default function Header() {
                     </li>
 
                     <li className='nav__item'>
-                        <a href="#services" className='nav__link'>
+                        <a href="#skills" className='nav__link'>
                         <BiBadgeCheck className='nav__icon'/> Skills
                         </a>
                     </li>
