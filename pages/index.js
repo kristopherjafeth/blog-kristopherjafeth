@@ -5,6 +5,7 @@ import Data from "@/components/Home/Data";
 import ScrollDown from "@/components/Home/ScrollDown";
 import About from "@/components/Home/About";
 import Skills from "@/components/Home/Skills";
+import Services from "@/components/Services/Services";
 
 // export default function Home({ posts }) {
 
@@ -24,6 +25,7 @@ export default function HomePage() {
           </div>
           <ScrollDown />
           <About />
+          <Services />
           <Skills/>
         </div>
        

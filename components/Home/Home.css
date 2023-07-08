@@ -27,6 +27,14 @@
     margin-bottom: var(--mb-1);
 }
 
+.button-hello
+{
+    -webkit-box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
+    -moz-box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
+    box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
+    font-weight: 600;
+}
+
 .span-green{
     color: #0ffc99;
 

@@ -8,6 +8,8 @@ import '@/components/Header/Header.css'
 import '@/components/Home/Home.css'
 import '@/components/Home/About.css';
 import '@/components/Home/Skills/Skills.css';
+import '@/components/Services/Services.css';
+
 import Head from 'next/head';
 
 export default function App({ Component, pageProps }) {

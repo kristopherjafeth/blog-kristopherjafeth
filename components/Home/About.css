@@ -8,6 +8,9 @@
   width: 350px;
   border-radius: 1.5rem;
   justify-self: center;
+  -webkit-box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
+  -moz-box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
+  box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
 }
 
 .about__info {
@@ -26,22 +29,25 @@
   border-radius: 0.75rem;
   text-align: center;
   padding: 1rem 1.25rem;
+  -webkit-box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
+  -moz-box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
+  box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
 }
 
 .about__icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--title-color);
   margin-bottom: var(--mb-0-5);
   margin: 0 auto;
 }
 
 .about__title {
-  font-size: var(--small-font-size);
-  font-weight: var(--font-medium);
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .about__subtitle {
-  font-size: var(--tiny-font-size);
+  font-size: var(--small-font-size);
 }
 .about__description {
   padding: 0 4rem 0 0;

@@ -10,6 +10,9 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    -webkit-box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
+    -moz-box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
+    box-shadow: 10px 2px 35px -4px rgba(0,0,0,0.46);
 }
 
 .skills__title 

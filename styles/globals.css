@@ -16,7 +16,7 @@
   --title-color-dark: #fff;
   --text-color: #fdfdfd;
   --body-color: #111111;
-  --container-color: #111111;
+  --container-color: #181818;
 
   /*========== Font and typography ==========*/
   --body-font: "Montserrat", sans-serif;
@@ -128,7 +128,7 @@ img {
 
 .section__subtitle {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: 1.4rem;
   margin-bottom: 4rem;
 }
 
