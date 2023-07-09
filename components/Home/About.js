@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../public/assets/about.jpg";
+import AboutImg from "../../public/assets/about.png";
 import Image from "next/image";
 import Info from "./Info";
 import { BiSolidCloudDownload } from "react-icons/bi";

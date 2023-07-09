@@ -1,0 +1,45 @@
+.text-blog-title
+{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.post-date-blog
+{
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.text-title-blog-section{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.image-blog-section
+{
+    width: 100%;
+    height: auto;
+}
+.text-blog-p
+{
+    font-size: 1rem;
+}
+
+.testimonial__card
+{
+    width: 750px;
+}
+
+.swiper-pagination-bullet 
+{
+    background-color: white !important;
+}
+
+@media screen and (max-width: 992px) {
+    
+    .testimonial__container
+    {
+        width: initial;
+    }
+}

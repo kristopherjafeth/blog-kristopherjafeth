@@ -7,7 +7,8 @@ import { BiMessage } from "react-icons/bi";
 import { BiMenu } from "react-icons/bi";
 import { BiXCircle } from "react-icons/bi";
 import Image from 'next/image'
-
+import Logo from '@/public/assets/logo.svg'
+import Link from 'next/link';
 
 export default function Header() {
 
@@ -15,15 +16,16 @@ export default function Header() {
   return (
     <header className='header'>
         <nav className='nav container'>
-            <a href='#' className='nav__logo'>
+        <Link href={`/`} className='nav__logo'>
+
                 <Image
-                src="./assets/logo.svg"
+                src={Logo}
                 width={80}
                 height={50}
                 alt="Picture of the author"
                 className='logo-image'
                 />
-            </a>
+        </Link>
 
             <div className={Toggle ? "nav__menu show-menu": "nav__menu" }>
                 <ul className='nav__list grid'>

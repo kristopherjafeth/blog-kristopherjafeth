@@ -9,8 +9,16 @@ import '@/components/Home/Home.css'
 import '@/components/Home/About.css';
 import '@/components/Home/Skills/Skills.css';
 import '@/components/Services/Services.css';
+import "@/components/Blog/Blog.css";
+import "@/components/Footer/Footer.css";
+
 
 import Head from 'next/head';
+import Footer from "@/components/Footer/Footer";
+
+
+
+
 
 export default function App({ Component, pageProps }) {
  
@@ -22,6 +30,7 @@ export default function App({ Component, pageProps }) {
          </Head>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </div>
   );
 }
