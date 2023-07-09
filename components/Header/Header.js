@@ -60,8 +60,8 @@ export default function Header() {
                     </li>
 
                     <li className='nav__item'>
-                        <a href="#contact" className='nav__link'>
-                        <BiMessage className='nav__icon'/> Contact
+                        <a href="#blog" className='nav__link'>
+                        <BiMessage className='nav__icon'/> Blog
                         </a>
                     </li>
                 </ul>

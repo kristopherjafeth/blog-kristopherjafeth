@@ -12,7 +12,7 @@ import Link from 'next/link';
 function Blog({ posts }) {
   return (
     <>
-   <section className="testimonials container section">
+   <section className="testimonials container section" id="blog">
      <h1 className="section__title">
         My <span className="span-green">Blog</span>
       </h1>
