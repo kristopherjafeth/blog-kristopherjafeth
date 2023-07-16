@@ -1,5 +1,4 @@
 import React from 'react'
-import {Data} from "./Data";
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {Pagination} from "swiper";
