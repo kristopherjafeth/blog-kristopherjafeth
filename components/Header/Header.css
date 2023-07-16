@@ -18,8 +18,8 @@
 }
 
 .logo-image{
-    height: 50px !important;
-    width: 50px !important;
+    height: 70px !important;
+    width: 70px !important;
 }
 
 .nav__logo,
@@ -42,7 +42,7 @@
     align-items: center;
     font-size: var(--small-font-size);
     color: var(--title-color);
-    font-weight: var(--font-medium);
+    font-weight: 600;
     transition: .3s;    
 }
 

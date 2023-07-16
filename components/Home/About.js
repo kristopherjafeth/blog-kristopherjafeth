@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../public/assets/about.jpg";
+import AboutImg from "../../public/assets/about.png";
 import Image from "next/image";
 import Info from "./Info";
 import { BiSolidCloudDownload } from "react-icons/bi";
@@ -26,12 +26,7 @@ export default function About() {
             <p className="about__description">
                 Full Stack developer, I create web pages with UI/UX user interface, I have 3 years of experience and many clientes are happy with the projects carried out.
             </p>
-            <a href='#contact' className='button button--flex mt-4'>
-            Download CV 
-            <span className='pl-4'>
-                <BiSolidCloudDownload />
-            </span>
-        </a>
+       
         </div>
       </div>
     </section>

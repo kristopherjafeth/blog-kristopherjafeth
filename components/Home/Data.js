@@ -13,7 +13,7 @@ export default function Data() {
         <p className='home__description'>
             I am creative web developer based in Venezuela, Im very passionate and dedicated to my work.
         </p>
-        <a href='#contact' className='button button--flex mt-4 button-hello'>
+        <a href='https://www.instagram.com/kristopherjafeth/' className='button button--flex mt-4 button-hello'>
             Say Hello 
             <span className='pl-4'> 
                 <BiSend />
