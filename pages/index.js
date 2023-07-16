@@ -31,7 +31,6 @@ export default function HomePage({posts}) {
           <Services />
           <Skills/>
           <Blog posts={posts}/>
-
         </div>
        
       </section>
