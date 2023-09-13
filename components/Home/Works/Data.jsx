@@ -1,9 +1,9 @@
-import Work1 from "@/public/assets/novalaptop.png";
+import Work1 from "@/public/assets/nova.png";
 import Work2 from "@/public/assets/carrepairpro.png";
-import Work3 from "@/public/assets/elvigilanteweb.png";
+import Work3 from "@/public/assets/vigilante.png";
 import Work4 from "@/public/assets/carsalelanding.png";
-import Work5 from "@/public/assets/youlink.png";
-import Work6 from "@/public/assets/landingconsorcio.png";
+import Work5 from "@/public/assets/maquillate.png";
+import Work6 from "@/public/assets/consorcio.png";
 
 export const projectsData = [
   {
@@ -23,7 +23,7 @@ export const projectsData = [
   {
     id: 3,
     image: Work3,
-    title: "El Vigilante",
+    title: "El Vigilante | Medio de comunicación.",
     category: "wordpress",
     link: "https://elvigilanteweb.com",
   },
@@ -37,9 +37,9 @@ export const projectsData = [
   {
     id: 5,
     image: Work5,
-    title: "YouLink",
-    category: "laravel",
-    link: "https://youlink.bio/",
+    title: "Maquillate | 1RA Y ÚNICA PLATAFORMA DE AUTOMAQUILLAJE",
+    category: "Vue Js",
+    link: "https://maquillate.com/",
   },
   {
     id: 6,
@@ -65,6 +65,6 @@ export const projectsNav = [
     name: "wordpress",
   },
   {
-    name: "laravel",
+    name: "Vue Js",
   },
 ];

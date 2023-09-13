@@ -4,7 +4,6 @@ import Data from "@/components/Home/Data";
 import ScrollDown from "@/components/Home/ScrollDown";
 import About from "@/components/Home/About";
 import Skills from "@/components/Home/Skills";
-import Services from "@/components/Services/Services";
 import Blog from "@/components/Blog/Blog";
 import { getAllFilesMetadata } from "@/lib/mdx";
 import Works from "@/components/Home/Works/Works";
@@ -28,7 +27,6 @@ export default function HomePage({posts}) {
           <ScrollDown />
           <Works />
           <About />
-          <Services />
           <Skills/>
           <Blog posts={posts}/>
         </div>

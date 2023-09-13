@@ -5,7 +5,7 @@
 .home__content
 {
     grid-template-columns: 116px repeat(2, 1fr);
-    padding-top: 5.5rem;
+    padding-top: 2.5rem;
     column-gap: 2rem;
     align-items: center;
 }
@@ -23,7 +23,7 @@
     padding-left: 6rem;
     margin-bottom: var(--mb-0-25);
     font-weight: 500;
-    color: #f50035;
+    color: #18ffa6;
     margin-bottom: var(--mb-1);
 }
 
@@ -36,7 +36,7 @@
 }
 
 .span-green{
-    color: #f50035;
+    color: #18ffa6;
 
 }
 
@@ -75,7 +75,7 @@
 
 .home__img
 {
-    background: url(../../public/assets/profile.webp);
+    background: url(../../public/assets/kristopher.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,7 +83,7 @@
     order: 1;
     justify-self: center;
     width: 300px;
-    height: 300px;
+    height: 400px;
     animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
