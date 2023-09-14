@@ -1,7 +1,6 @@
 import Work1 from "@/public/assets/nova.png";
 import Work2 from "@/public/assets/carsale.png";
 import Work3 from "@/public/assets/vigilante.png";
-import Work4 from "@/public/assets/carsalelanding.png";
 import Work5 from "@/public/assets/maquillate.png";
 import Work6 from "@/public/assets/consorcio.png";
 
@@ -29,20 +28,13 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: Work4,
-    title: "Car Sale Pro",
-    category: "Landing Page",
-    link: "https://carsale-template.vercel.app/",
-  },
-  {
-    id: 5,
     image: Work5,
     title: "Maquillate | 1RA Y ÚNICA PLATAFORMA DE AUTOMAQUILLAJE",
     category: "Vue Js",
     link: "https://maquillate.com/",
   },
   {
-    id: 6,
+    id: 5,
     image: Work6,
     title: "Consorcio Construtecz",
     category: "React Js",
