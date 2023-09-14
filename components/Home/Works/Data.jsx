@@ -1,5 +1,5 @@
 import Work1 from "@/public/assets/nova.png";
-import Work2 from "@/public/assets/carrepairpro.png";
+import Work2 from "@/public/assets/carsale.png";
 import Work3 from "@/public/assets/vigilante.png";
 import Work4 from "@/public/assets/carsalelanding.png";
 import Work5 from "@/public/assets/maquillate.png";
