@@ -48,7 +48,7 @@ const Frontend = () => {
             <div className='skills__data'>
                 <BiLogoVuejs className='icon-skill'/>
                 <div>
-                    <h3 className='skills__name'>React Js</h3>
+                    <h3 className='skills__name'>Vue Js</h3>
                 </div>
             </div>
 
