@@ -7,6 +7,8 @@ import Skills from "@/components/Home/Skills";
 import Blog from "@/components/Blog/Blog";
 import { getAllFilesMetadata } from "@/lib/mdx";
 import Works from "@/components/Home/Works/Works";
+import Profile from "@/public/assets/kristopher.png";
+import Image from "next/image";
 
 // export default function Home({ posts }) {
 
@@ -21,7 +23,15 @@ export default function HomePage({posts}) {
         <div className="home__container container grid">
           <div className="home__content grid">
               <Social />
-              <div className="home__img"></div>
+              <div className="home__img">
+              <Image
+              src={Profile}
+              alt="rich"
+              width={600}
+              height={600}
+              className="object-cover w-full p-4"
+            />              
+            </div>
               <Data />
           </div>
           <ScrollDown />

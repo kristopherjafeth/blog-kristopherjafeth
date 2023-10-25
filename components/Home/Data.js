@@ -11,7 +11,7 @@ export default function Data() {
             Web Developer
         </h3>
         <p className='home__description'>
-            I am creative web developer based in Colombia, Im very passionate and dedicated to my work.
+            I am creative web developer based in Venezuela, Im very passionate and dedicated to my work.
         </p>
         <a href='https://www.instagram.com/kristopherjafeth/' className='button button--flex mt-4 button-hello'>
             Say Hello 

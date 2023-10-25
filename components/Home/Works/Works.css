@@ -54,13 +54,13 @@
     cursor: pointer;
 }
 .work__item:hover {
-    background-color: #18ffa6;
+    background-color: #f5cc4c;
     color: var(--container-color);
 }
 
 .active-work
 {
-    background-color: #18ffa6;
+    background-color: #f5cc4c;
     color: var(--container-color);
 }
 
